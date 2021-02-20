@@ -68,3 +68,18 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+Failing to build, get 
+
+021-02-19T21:41:17.665Z [INFO]: File project: data should NOT have additional properties: 'graphqltransformer'
+2021-02-19T21:41:17.665Z [INFO]: JSONValidationError: File project: data should NOT have additional properties: 'graphqltransformer'
+                                 at validator (/root/.nvm/versions/node/v12.19.0/lib/node_modules/@aws-amplify/cli/node_modules/amplify-cli-core/lib/feature-flags/featureFlags.js:136:27)
+                                 at featureFlagsValidator (/root/.nvm/versions/node/v12.19.0/lib/node_modules/@aws-amplify/cli/node_modules/amplify-cli-core/lib/feature-flags/featureFlags.js:140:17)
+                                 at FeatureFlags.validateFlags (/root/.nvm/versions/node/v12.19.0/lib/node_modules/@aws-amplify/cli/node_modules/amplify-cli-core/lib/feature-flags/featureFlags.js:146:17)
+                                 at FeatureFlags.loadValues (/root/.nvm/versions/node/v12.19.0/lib/node_modules/@aws-amplify/cli/node_modules/amplify-cli-core/lib/feature-flags/featureFlags.js:204:18)
+                                 at async Function.FeatureFlags.initialize (/root/.nvm/versions/node/v12.19.0/lib/node_modules/@aws-amplify/cli/node_modules/amplify-cli-core/lib/feature-flags/featureFlags.js:267:5)
+                                 at async Object.run (/root/.nvm/versions/node/v12.19.0/lib/node_modules/@aws-amplify/cli/lib/index.js:73:9)
+2021-02-19T21:41:17.670Z [ERROR]: !!! Build failed
+2021-02-19T21:41:17.671Z [ERROR]: !!! Non-Zero Exit Code detected
+2021-02-19T21:41:17.671Z [INFO]: # Starting environment caching...
+2021-02-19T21:41:17.671Z [INFO]: # Environment caching completed
